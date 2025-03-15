@@ -1,7 +1,7 @@
 resource "aws_key_pair" "my_key"{
 
       key_name = "terraformserver"
-      public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILxFD0lfpvwwrxjlK/6Gpxm66/XfmQqzKJlGg2mW2rzt ubuntu@ip-172-31-17-140"
+      public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILxFD0lfpvwwrxjlK/6Gpxm66/XfmQqzKJlGg2mW2rzt ubuntu@ip-172-31-17-140"  #you can also use file("public key name")
 }
 
 
